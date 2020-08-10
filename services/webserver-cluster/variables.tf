@@ -23,7 +23,7 @@ variable "instance_type" {
   type = string
 }
 
-variables "min_size" {
+variable "min_size" {
   description = "The minimum number of EC2 instances in the ASG"
   type = number
 }
